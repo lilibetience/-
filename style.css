@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f06, #48C6EF);
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.section {
+    margin: 40px 0;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.work-entry h3 {
+    font-size: 1.4em;
+    color: #ff6347;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+ul li i {
+    color: #ff6347;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+/* Hover animations for buttons or links */
+a:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
